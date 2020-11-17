@@ -2,7 +2,7 @@ language: python
 python:
 - '3.6'
 install:
-- pip install ansible==2.3.0 molecule apache-libcloud
+- pip install ansible==2.3.0 molecule==2.22 apache-libcloud
 env:
   global:
   - secure: Kl0qH/PnSL7nAWuZtkD61KrofFPhWDk9f6GMqrrJmxnTq0a12wIUiCi8Sx72LB6iAZ51s4wmAcYBVoyTJ2kMcd9FJWTmVA7wgPy6ALblbVna8wXAsfL1muvyeiH2MB5J5fkSeWV5jin+bYxq66LaARp35+ekD5X3X4ngAPIyxV9ja94mj8Xx9rKL/hC43n8B0uaT7mSwd+vw5OIyltNxTjdzgj5uuBkEK1NTmZhJIBEzlbB3DN1rq78Mz0LrA7mqGzSrf5vYvz9VeeTzeSVb0MthtUWJ9Y2xP9eVnLcWq4Vkn3E8FrFpyxjKuUIfBSul1Qh4GiMpqdO3lq3hJvGoR2gDn+05IKbnT3I8QmPac5CfEPctR/6wTcEqAf6Gd/x+I/ft2XZMyd31B6nQL6JZuc1JKH+dKQGg4yysXqIQue/De1jjgV5L8tZcBvROUbWUCcvFTSiJJPtCeqTiFTWxzl2lKSjMjIYvMeFGaDMXY6ShdcOnGMhuASyAOZ+NVs6fqjX7ZEaVPfJ8MRW3sDsEm5NZHykgjxG9XQIXKbIRUsz4t8kR8TXzLB+Qq8IMJOrLbkPF2knMHwvesXOiK/Iv0bXasDvDsPY+A2zc2bpzoKJ5pq1X9N6xIISI3NX1jZVdL8k3qsC3/kbA29Uiyc56jfwdnMCuCV+vdC8Qmr0M3HI=
