@@ -2,16 +2,14 @@
 dependency:
   name: galaxy
 driver:
-  name: vagrant
-  provider:
-    name: virtualbox
+  name: gce
 lint:
   name: yamllint
 platforms:
-  - name: instance
-    box: ubuntu/bionic64
-    provider_raw_config_args:
-      - "customize [ 'modifyvm', :id, '--uartmode1', 'disconnected' ]"
+  - name: instance-travis
+    zone: europe-west1-b
+    machine_type: f1-micro
+    image: ubuntu-1804-lts
 provisioner:
   name: ansible
   lint:
@@ -20,4 +18,3 @@ verifier:
   name: testinfra
   lint:
     name: flake8
-
