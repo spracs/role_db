@@ -15,7 +15,6 @@ provisioner:
   log: true
   connection_options:
     ansible_ssh_common_args: -o StrictHostKeyChecking=no 
-    ansible_ssh_user: travis
   lint:
     name: ansible-lint
 scenario:
